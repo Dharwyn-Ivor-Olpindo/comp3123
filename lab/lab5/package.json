@@ -1,0 +1,24 @@
+{
+  "name": "lab5_express",
+  "version": "1.0.0",
+  "description": "Using express framework to set up the server",
+  "repository": {
+    "type": "git",
+    "url": "101468069_COMP3123-exec05"
+  },
+  "license": "ISC",
+  "author": "Dharwyn Ivor Olpindo",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js localhost 8081"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
